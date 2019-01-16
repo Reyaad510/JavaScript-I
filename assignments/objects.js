@@ -10,14 +10,55 @@
 // 5,adaine5@samsung.com,Antonietta,F
 
 // Example format of an intern object: 1,examples@you.edu,Example,F
-const example = {
-  "id": 0,
-  "name": "Example",
-  "email": "examples@you.edu",
-  "gender": "F"
-}
+// const example = {
+//   "id": 0,
+//   "name": "Example",
+//   "email": "examples@you.edu",
+//   "gender": "F"
+// }
 
 // Write your intern objects here:
+
+  const internOne = {
+    id: 0,
+    name: 'Mitzi',
+    email: 'mmelloy0@psu.edu',
+    gender: 'F'
+  }
+
+  const internTwo = {
+    id: 1,
+    name: 'Kennan',
+    email: 'kdiben1@tinypic.com',
+    gender: 'M'
+  }
+
+  const internThree = {
+    id: 2,
+    name: 'Keven',
+    email: 'kmummery2@wikimedia.org',
+    gender: 'M'
+  }
+
+  const internFour= {
+    id: 3,
+    name: 'Gannie',
+    email: 'gmartinson3@illinois.edu',
+    gender: 'M'
+  }
+
+  const internFive = {
+    id: 4,
+    name: 'Antonietta',
+    email: 'adaine5@samsung.com',
+    gender: 'F'
+  }
+
+  console.log(internOne);
+  console.log(internTwo);
+  console.log(internThree);
+  console.log(internFour);
+  console.log(internFive);
 
 
 // ==== Challenge 2: Reading Object Data ==== 
